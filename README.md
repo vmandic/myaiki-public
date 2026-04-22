@@ -1,6 +1,6 @@
 # myaiki-public
 
-Public-facing static site for **Myaiki** (legal pages and minimal landing). Built for **GitHub Pages** from the repository root.
+Web presence for **Myaiki**: legal pages and a short landing. Served with **GitHub Pages** from the repository root.
 
 ## Contents
 
@@ -9,7 +9,7 @@ Public-facing static site for **Myaiki** (legal pages and minimal landing). Buil
 | `index.html` | Landing page with links |
 | `terms.html` | Terms of use (HTML export of app legal text) |
 | `privacy.html` | Privacy policy (HTML export of app legal text) |
-| `legal/*.md` | Source markdown mirrored from the private application project (`docs/legal/` there) for easy diffing when updating |
+| `legal/*.md` | Source markdown mirrored from the main app project (`docs/legal/` there) when updating legal text |
 
 ## GitHub Pages setup
 
@@ -23,7 +23,7 @@ A `.nojekyll` file is included so GitHub does not run Jekyll on these plain HTML
 
 ## Updating legal text
 
-1. Edit canonical copies in the private application repository: `docs/legal/terms_of_use_en.md` and `docs/legal/privacy_policy_en.md` (and sync `assets/legal/` there per your usual process).
+1. Edit canonical copies in the main app repository: `docs/legal/terms_of_use_en.md` and `docs/legal/privacy_policy_en.md` (and sync `assets/legal/` there per your usual process).
 2. Copy the `.md` files into `legal/` here.
 3. Regenerate `terms.html` and `privacy.html` (for example with Python `markdown` from those files, matching the existing HTML shell and `web-note` block), then commit.
 
