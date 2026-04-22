@@ -36,4 +36,5 @@ Short context for tools and humans working in **this** repository only.
 ## Licensing
 
 - **No** open-source `LICENSE` file. Default copyright applies; see **`README.md` → Copyright and licensing** for the project statement.
-- If the legal entity or year changes, update the README, HTML footers, and this file’s cross-references together.
+- Footer copyright **year** on HTML pages: **`assets/site.js`** replaces `[data-copyright-year]` with `new Date().getFullYear()`; default text in markup is **2026** for no-JS and first paint.
+- If the legal entity changes, update the README, HTML footers (name string), and this file’s cross-references together. Bump the **fallback** year in HTML when you intentionally want a new baseline for no-JS viewers.
