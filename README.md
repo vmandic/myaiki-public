@@ -2,6 +2,12 @@
 
 Web presence for **Myaiki**: legal pages and a short landing. Served with **GitHub Pages** from the repository root.
 
+## Copyright and licensing
+
+© 2026 Vedran Mandić. All rights reserved.
+
+There is **no** `LICENSE` file in this repository. Unless stated otherwise in writing, nothing here is offered under an open-source or other permissive license. You may browse and use the published site as an end user; copying, redistribution, or reuse of the materials for other purposes requires permission from the rights holder.
+
 ## Contents
 
 | Path | Purpose |

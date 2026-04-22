@@ -32,3 +32,8 @@ Short context for tools and humans working in **this** repository only.
 ## App Store Connect (brief)
 
 - **Support** and **Marketing** URLs can both point at the Pages root above once it returns HTTP 200.
+
+## Licensing
+
+- **No** open-source `LICENSE` file. Default copyright applies; see **`README.md` → Copyright and licensing** for the project statement.
+- If the legal entity or year changes, update the README, HTML footers, and this file’s cross-references together.
