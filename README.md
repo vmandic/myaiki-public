@@ -37,7 +37,7 @@ On the HTML pages, the copyright **year** is filled in with JavaScript from the 
 
 1. Edit the canonical files in the main Myaiki app: `docs/legal/terms_of_use_en.md` and `docs/legal/privacy_policy_en.md` (and keep `assets/legal/` in that repo aligned with your usual process).
 2. Copy both files into `legal/` here.
-3. Regenerate `terms.html` and `privacy.html` from the Markdown (keep the same HTML shell, including the top **site notice** and footer), then commit.
+3. Regenerate `terms.html` and `privacy.html` from the Markdown (keep the same HTML shell, including the top **site notice** and footer), then commit. If the generator copies the Markdown `#` title verbatim, restore **Title Case** on the document `h1` for the published pages if you want the site wording to stay consistent.
 
 ## App Store and Play Console
 
