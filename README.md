@@ -1,6 +1,8 @@
 # myaiki-public
 
-Web site for **Myaiki** (Terms of Use and Privacy Policy): `https://vmandic.github.io/myaiki-public/`
+[![Myaiki — live site](https://img.shields.io/badge/Myaiki-live%20site-2d4a3e?labelColor=faf9f7&style=flat-square)](https://vmandic.github.io/myaiki-public/)
+
+Web site for **Myaiki** (Terms of Use and Privacy Policy): [https://vmandic.github.io/myaiki-public/](https://vmandic.github.io/myaiki-public/)
 
 ## About Myaiki
 

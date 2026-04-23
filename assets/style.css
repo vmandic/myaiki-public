@@ -82,8 +82,39 @@ main {
   color: var(--muted);
 }
 
+.home-features {
+  margin: 1.25rem 0 1.5rem;
+  padding-left: 1.25rem;
+}
+
+.home-features li {
+  margin-bottom: 0.65rem;
+}
+
+.home-body {
+  margin: 0 0 1rem;
+}
+
+.home-body--note {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.home-section-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 2rem 0 0.5rem;
+  color: var(--fg);
+}
+
+.home-legal-intro {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .home-actions {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
