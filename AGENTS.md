@@ -9,7 +9,7 @@ Context for tools and humans working **only** in this repository.
 
 ## Voice
 
-- Use normal product language for **Myaiki**. Avoid meta labels such as “public site” or “public part of the app” on user-facing pages. Keep implementation detail here or in the README.
+- Use normal product language for **Myaiki**. Avoid meta labels such as “public site” or “public part of the app” on user-facing pages. Keep implementation and maintainer workflow here, not in the README.
 
 ## GitHub Pages
 

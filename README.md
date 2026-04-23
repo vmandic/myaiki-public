@@ -1,48 +1,29 @@
 # myaiki-public
 
-Static site for **Myaiki** (Terms of Use and Privacy Policy), served with **GitHub Pages** from the repository root.
+Web site for **Myaiki** (Terms of Use and Privacy Policy): `https://vmandic.github.io/myaiki-public/`
 
-**Live site:** `https://vmandic.github.io/myaiki-public/` (after Pages is enabled for `main` / root).
+## About Myaiki
+
+Myaiki is a calm, content-first companion for learning about Aikido when you are off the mat. It bundles curated reading, a searchable library, and short knowledge checks you can use without a constant internet connection.
+
+- **Articles and topics** — Structured reading on what Aikido is, historical and cultural context, and related themes. Written for learners and curious readers, not as a substitute for training with a qualified teacher.
+
+- **Techniques reference** — Browse technique names and categories as a study aid. Descriptions stay safety-aware and educational.
+
+- **Glossary** — Japanese and English terms with explanations you can search and open from the library.
+
+- **World hub** — A high-level geographic view of where Aikido is practiced, with editorial notes where relevant. Reference material, not a live directory or navigation product.
+
+- **Quizzes** — Short quizzes to reinforce vocabulary and concepts from the bundled material.
+
+- **Founder and legacy** — Introductory material on Morihei Ueshiba and the art’s story in a respectful, neutral tone.
+
+Myaiki is **offline-first**: core reading and reference load from assets on your device. External links, where present, open in your system browser.
+
+Aikido is a physical martial art. Myaiki does not teach live movement, pair work, or falling in place of a dojo. Follow your instructor and train under appropriate supervision.
 
 ## Copyright
 
 © 2026 Vedran Mandić. All rights reserved.
 
-There is **no** `LICENSE` file. Unless you have written permission, do not treat the contents as open source. Visitors may use the published pages in the ordinary way. Copying, redistribution, or reuse for other purposes requires permission from the rights holder.
-
-On the HTML pages, the copyright **year** is filled in with JavaScript from the visitor’s system date (`assets/site.js`). The markup contains **2026** as a fallback when scripts do not run. This README line is updated manually when you choose.
-
-## Contents
-
-| Path | Purpose |
-|------|---------|
-| `index.html` | Short landing page with links to the legal pages |
-| `terms.html` | Terms of Use (HTML; same substance as in the app) |
-| `privacy.html` | Privacy Policy (HTML; same substance as in the app) |
-| `assets/style.css` | Shared layout and typography |
-| `assets/site.js` | Sets footer copyright year from `Date` in the browser |
-| `legal/*.md` | Markdown sources mirrored from the main Myaiki app (`docs/legal/` there) when legal text changes |
-
-## GitHub Pages
-
-1. Push this repository to GitHub (if needed).
-2. **Settings → Pages**
-3. **Build and deployment:** source **Deploy from a branch**
-4. Branch **`main`**, folder **`/` (root)**
-5. Save. The site URL will be `https://<user>.github.io/<repo>/` (for example `https://vmandic.github.io/myaiki-public/`).
-
-`.nojekyll` is present so GitHub does not run Jekyll on these static files.
-
-## Updating legal text
-
-1. Edit the canonical files in the main Myaiki app: `docs/legal/terms_of_use_en.md` and `docs/legal/privacy_policy_en.md` (and keep `assets/legal/` in that repo aligned with your usual process).
-2. Copy both files into `legal/` here.
-3. Regenerate `terms.html` and `privacy.html` from the Markdown (keep the same HTML shell, including the top **site notice** and footer), then commit. If the generator copies the Markdown `#` title verbatim, restore **Title Case** on the document `h1` for the published pages if you want the site wording to stay consistent.
-
-## App Store and Play Console
-
-You may use the Pages base URL for **Support** and **Marketing**, for example:
-
-- `https://<user>.github.io/<repo>/`
-- `https://<user>.github.io/<repo>/terms.html`
-- `https://<user>.github.io/<repo>/privacy.html`
+There is no `LICENSE` file. The contents are not offered as open source unless you have written permission to treat them that way.
