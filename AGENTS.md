@@ -28,6 +28,7 @@ Context for tools and humans working **only** in this repository.
 - Site root: `https://vmandic.github.io/myaiki-public/`
 - Legal HTML: `…/terms.html`, `…/privacy.html`
 - Raw Markdown: `https://github.com/vmandic/myaiki-public/raw/main/legal/terms_of_use_en.md` and `…/privacy_policy_en.md`
+- App Store (iOS): `https://apps.apple.com/app/myaiki/id6762214255` (store listing; badge assets in **`assets/download-on-the-app-store-*-en.svg`** from Apple’s marketing toolkit)
 
 ## App Store Connect
 

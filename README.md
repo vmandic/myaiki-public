@@ -4,6 +4,10 @@
 
 Web site for **Myaiki** (Terms of Use and Privacy Policy): [https://vmandic.github.io/myaiki-public/](https://vmandic.github.io/myaiki-public/)
 
+**App Store (iOS):** [Myaiki on the App Store](https://apps.apple.com/app/myaiki/id6762214255)
+
+[![Download on the App Store](./assets/download-on-the-app-store-black-en.svg)](https://apps.apple.com/app/myaiki/id6762214255)
+
 ## About Myaiki
 
 Myaiki is a calm, content-first companion for learning about Aikido when you are off the mat. It bundles curated reading, a searchable library, and short knowledge checks you can use without a constant internet connection.
